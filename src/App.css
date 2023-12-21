@@ -1,3 +1,9 @@
-.PresTitle {
-  text-align: center;
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("../public/Montserrat-Light.ttf");
+}
+
+body {
+  letter-spacing: 1px;
+  font-family: Montserrat-Light;
 }

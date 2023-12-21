@@ -7,9 +7,8 @@ function Gallery() {
 
   return (
     <div>
-      <h1 className="PresTitle">Hello from Gallery {id}</h1>
-      {id === "1" && <GalleryMusic galleryId={id} />}
-      {id === "2" && <GalleryMovies galleryId={id} />}
+      {id === "1" && <GalleryMusic />}
+      {id === "2" && <GalleryMovies />}
     </div>
   );
 }

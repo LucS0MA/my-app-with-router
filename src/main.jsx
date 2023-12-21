@@ -9,6 +9,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 
+const getWeatherOfTheDay = () => {
+  return "sunny";
+};
+
 // router creation
 
 const router = createBrowserRouter([
@@ -18,6 +22,9 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        loader: () => {
+          return getWeatherOfTheDay();
+        },
       },
       {
         path: "/about",

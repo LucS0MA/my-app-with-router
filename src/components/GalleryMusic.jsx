@@ -9,6 +9,12 @@ import "./GalleryMusic.css";
 const GalleryMusic = () => {
   return (
     <>
+      <div className="titleGal">
+        <h1 className="PresTitle">
+          Explore a collection of minimalist posters featuring iconic bands and
+          cult music in a 70s-inspired style.
+        </h1>
+      </div>
       <div className="Gallery">
         <div className="Card">
           <img src={music1} className="Images one" alt="" />

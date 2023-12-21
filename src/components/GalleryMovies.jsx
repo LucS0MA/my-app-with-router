@@ -10,6 +10,12 @@ import "./GalleryMusic.css";
 const GalleryMovies = () => {
   return (
     <>
+      <div className="titleGal">
+        <h1 className="PresTitle">
+          Explore a diverse selection of minimalist posters capturing the
+          essence of iconic cult films and TV series in a stylish 70s aesthetic.
+        </h1>
+      </div>
       <div className="Gallery">
         <div className="Card">
           <img src={movie1} className="Images one" alt="" />
